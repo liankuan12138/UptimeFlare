@@ -24,8 +24,8 @@ const pageConfig: PageConfig = {
   // [重要] 监控项分组：如果不配置此项，所有监控将显示在一个长列表中
   // 只有在下面分组中列出的 id 才会显示在页面上，没列出的只会在后台运行
   group: {
-    '核心服务 (Public)': ['main_website', 'api_service'],
-    '私有节点 (Private)': ['home_nas_ssh', 'test_server_tcp'],
+    '核心服务 (Public)': ['bitsflow_slc_ssh'],
+    '私有节点 (Private)': [],
   },
 
   // [可选] 网站图标与 Logo 链接，默认使用系统图标
