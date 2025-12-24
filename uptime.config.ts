@@ -59,11 +59,11 @@ const workerConfig: WorkerConfig = {
     // 示例：TCP 监控项（用于监控服务器端口，如 SSH、数据库等）
     {
       id: 'ssh_monitor',
-      name: '我的服务器 SSH',
+      name: 'SLC',
       // TCP 监控必须使用 TCP_PING
       method: 'TCP_PING',
       // 目标格式为 host:port（例如你的 IP:22）
-      target: '123.789.789.789:22',
+      target: '104.129.32.92:20201',
       tooltip: '服务器 SSH 连通性监控',
       timeout: 5000,
     },
