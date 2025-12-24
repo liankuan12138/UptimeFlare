@@ -58,8 +58,8 @@ const workerConfig: WorkerConfig = {
     
     // 示例：TCP 监控项（用于监控服务器端口，如 SSH、数据库等）
     {
-      id: 'ssh_monitor',
-      name: 'SLC',
+      id: 'slc',
+      name: 'Bitsflow_SLC',
       // TCP 监控必须使用 TCP_PING
       method: 'TCP_PING',
       // 目标格式为 host:port（例如你的 IP:22）
