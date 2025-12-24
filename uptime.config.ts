@@ -90,7 +90,7 @@ const workerConfig: WorkerConfig = {
       tooltip: 'SSH 连通性监控',
       timeout: 5000,
       // 如果你的 IP 经常被墙，可以尝试从国内/近场探测点探测
-      checkProxy: 'globalping://CN/1','globalping://HK/1'，
+      checkProxy: 'globalping://CN/1'，
     },
   ],
 
